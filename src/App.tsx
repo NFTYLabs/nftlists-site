@@ -19,11 +19,18 @@ function App() {
 
   return (
     <div className="container-fluid p-0">
-      <div className="bg-light py-4 d-flex flex-column align-items-center justify-content-center">
+      <div className="bg-light py-4 px-1 d-flex flex-column align-items-center justify-content-center">
         <h1 className="text-center">NFT Lists</h1>
-        <p>
-          NFT Lists is a community-led initiative to improve discoverability, reputation and trust in NFT lists in a manner that is inclusive, transparent, and decentralized.
-        </p>
+        <div className="col col-md-8 mx-auto text-center">
+          <p>
+          NFT Lists is an open-source initiative to improve discoverability for non-fungible tokens.
+          <br/>
+          <small>
+            (À la <a className="text-dark" target="_blank" href="https://tokenlists.org">https://tokenlists.org</a>)
+          </small>
+          </p>
+
+        </div>
         <div className="d-flex justify-content-center">
           <a className="btn btn-secondary mx-2" target="_blank" href="https://github.com/nftylabs/nft-lists">Github</a>
           <a className="btn btn-secondary mx-2" target="_blank" href="https://npmjs.com/@nftylabs/nft-lists">NPM</a>
@@ -63,9 +70,6 @@ function App() {
           Made with ❤️ by <a href="https://twitter.com/0xRizzo" target="_blank" className="text-light">0xRizzo</a>
         </small>
         <br/>
-        <small>
-        H/T to <a className="text-light" href="https://tokenlists.org">https://tokenlists.org</a>
-        </small>
       </footer>
     </div>
   );
