@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="container-fluid p-0">
       <div className="bg-light py-4 px-1 d-flex flex-column align-items-center justify-content-center">
-        <h1 className="text-center">NFT Lists</h1>
+        <h1 className="text-center">🥐 <br/>NFT Lists</h1>
         <div className="col col-md-8 mx-auto text-center">
           <p>
           NFT Lists is an open-source initiative to improve discoverability for non-fungible tokens.
@@ -67,7 +67,7 @@ function App() {
 
       <footer className="fixed-bottom text-center p-3 bg-dark text-light">
         <small>
-          Made with ❤️ by <a href="https://twitter.com/0xRizzo" target="_blank" className="text-light">0xRizzo</a>
+          Made by <a href="https://twitter.com/0xRizzo" target="_blank" className="text-light">0xRizzo</a>
         </small>
         <br/>
       </footer>
